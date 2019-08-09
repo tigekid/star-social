@@ -7,19 +7,24 @@ Social media forum with multiple groups of members that can communicate with eac
 First, clone the repository to your local machine:
 
 ```bash
-git clone git@github.com:sibtc/django-beginners-guide.git
+git clone https://github.com/tigekid/star-social.git
+```
+
+Setup the virtual environment:
+
+```bash
+python3 -m venv venv
+```
+
+Start virtual environment:
+```bash
+source venv/bin/activate
 ```
 
 Install the requirements:
 
 ```bash
 pip install -r requirements.txt
-```
-
-Setup the local configurations:
-
-```bash
-cp .env.example .env
 ```
 
 Create the database:
