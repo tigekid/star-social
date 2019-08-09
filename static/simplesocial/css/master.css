@@ -1,0 +1,32 @@
+/* Copyright (c) 2019 Brian Ainsworth. All Rights Reserved. */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(55, 57, 55);
+    color:white;
+  }
+.title{
+    text-align: center;
+}
+
+.list-group{
+    padding-top: 50px;
+}
+.newpost{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.posttitle{
+   text-align: left;
+}
+.thanks{
+   text-align: center;
+   padding-top: 30px;
+}
+.contenters{
+    border: solid 3px rgb(46, 25, 233);
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
